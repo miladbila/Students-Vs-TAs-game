@@ -10,11 +10,9 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class HelloApplication extends Application {
-    static GamePage gamePage;
     @Override
     public void start(Stage stage) throws IOException {
-        gamePage=new GamePage();
-        Scene scene=new Scene(gamePage);
+        Scene scene=new Scene(new GamePage());
         stage.setScene(scene);
         stage.show();
     }
