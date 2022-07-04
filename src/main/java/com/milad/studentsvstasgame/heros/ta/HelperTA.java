@@ -6,7 +6,7 @@ import javafx.scene.image.Image;
 
 public class HelperTA extends Hero {
     public HelperTA(double XPosition, double YPosition) {
-        super(10, 10, 10, XPosition, YPosition);
+        super(4, 70, 8, XPosition, YPosition);
         Image image=new Image(HelloApplication.class.getResourceAsStream("HelperTA.gif"));
         this.setImage(image);
     }

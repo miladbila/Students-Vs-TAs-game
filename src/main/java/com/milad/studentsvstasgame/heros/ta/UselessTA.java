@@ -6,7 +6,7 @@ import javafx.scene.image.Image;
 
 public class UselessTA extends Hero {
     public UselessTA(double XPosition, double YPosition) {
-        super(10, 10, 10, XPosition, YPosition);
+        super(3, 60, 7, XPosition, YPosition);
         Image image=new Image(HelloApplication.class.getResourceAsStream("UselessTA.gif"));
         this.setImage(image);
     }

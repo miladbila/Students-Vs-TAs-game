@@ -6,7 +6,7 @@ import javafx.scene.image.Image;
 
 public class KindTA extends Hero {
     public KindTA(double XPosition, double YPosition) {
-        super(10, 10, 10, XPosition, YPosition);
+        super(4, 110, 8, XPosition, YPosition);
         Image image=new Image(HelloApplication.class.getResourceAsStream("KindTA.gif"));
         this.setImage(image);
     }

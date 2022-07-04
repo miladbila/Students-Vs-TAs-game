@@ -6,7 +6,7 @@ import javafx.scene.image.Image;
 
 public class HeadTA extends Hero {
     public HeadTA(double XPosition, double YPosition) {
-        super(10, 10, 10, XPosition, YPosition);
+        super(10, 100, 10, XPosition, YPosition);
         Image image=new Image(HelloApplication.class.getResourceAsStream("HeadTA.gif"));
         this.setImage(image);
     }
